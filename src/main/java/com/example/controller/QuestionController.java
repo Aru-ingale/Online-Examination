@@ -82,10 +82,6 @@ return null;
 		
 		
 		System.out.println("Submitted Answer :- " + submittedAnswer + "Original Answer :- " + originalAnswer);
-		//  Key      Value
-		// Qno     Answer
-		// 	1      AnswerObject   
-		//   HashMap Object
 		
 		HashMap<Integer, Answer> hm=(HashMap<Integer, Answer>)session.getAttribute("submittedDetails");
 		hm.put(qno,new Answer(qno, submittedAnswer, originalAnswer,qtext));
