@@ -7,7 +7,6 @@ ${wel}
 <script>
 
 var xhttp;
-// AJAX - Asynchronous JavaScript With XML
 function submitAnswer()
 {
 
