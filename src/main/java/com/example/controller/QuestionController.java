@@ -18,13 +18,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.example.dao.Answer;
 import com.example.dao.Question;
 
-// HashMap hashmap = new HashMap();
-// hashmap.put(1,90)
-// hashmap.put(1,80);
-// LoginController ===>  session.setAttribute("qno",-1);
 
-// QuestionControlller ===> int x= session.getAttribute("qno") + 1;
-// session.setAttribute("qno",x);
 
 
 @Controller

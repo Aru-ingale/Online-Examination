@@ -59,6 +59,7 @@ public class LoginController {
 		{
 			return new ModelAndView("index","error","Invalid Password");
 		}
+	
 	}
 	
 	
