@@ -14,7 +14,7 @@ function submitAnswer()
 	  
 	  var ans=document.myForm.opt.value;
 	  var oans=document.myForm.qans.value;
-	 // alert(oans);
+	
 	  var qno=document.myForm.qno.value;
 	  var qtxt=document.myForm.qtxt.value;
 	  
