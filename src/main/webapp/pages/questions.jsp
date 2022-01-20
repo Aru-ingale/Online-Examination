@@ -18,7 +18,7 @@ function submitAnswer()
 	  var qno=document.myForm.qno.value;
 	  var qtxt=document.myForm.qtxt.value;
 	  
-	  //alert(ans);
+	 
 	  
 	  var data="?ans=" + ans + "&oans=" + oans + "&qno=" + qno + "&qtxt=" + qtxt;
 	  
