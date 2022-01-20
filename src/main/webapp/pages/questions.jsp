@@ -10,7 +10,6 @@ var xhttp;
 function submitAnswer()
 {
 
-	//alert("clicked");
 	 xhttp = new XMLHttpRequest();
 	  
 	  var ans=document.myForm.opt.value;
